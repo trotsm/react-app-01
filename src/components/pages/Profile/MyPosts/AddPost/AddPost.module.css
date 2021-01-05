@@ -1,0 +1,16 @@
+.addPost {
+    display: flex;
+}
+
+.addPost textarea{
+    min-width: 250px;
+    border-radius: 2px;
+    background: #f5f5e2;
+}
+
+.addPost button {
+    margin-left: 5px;
+    background-color: limegreen;
+    color: #f5f5e2;
+    border: none;
+}

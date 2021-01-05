@@ -1,0 +1,22 @@
+.profileBackground {
+    width: auto;
+    height: 200px;
+    background-image: url(https://selfgrowth.info/photos/nature-galleries/big-nature-collages-without-background1164.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.avatar img {
+    height: 250px;
+    width: 250px;
+    border: 2px solid gainsboro;
+    margin: 16px;
+}
+
+.personalData {
+    display: flex;
+}
+
+.avatar {
+    justify-content: flex-start;
+}

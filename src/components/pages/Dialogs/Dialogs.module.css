@@ -1,13 +1,45 @@
-.dialogs {
+.dialogsPage {
     display: grid;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 3fr 2px 7fr;
+    height: 100vh;
 }
 
 .dialogItems {
     padding: 10px;
+}
 
+.dialog {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid limegreen;
+}
+
+.dialog a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+img.dialogImg {
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.verticalLine {
+    border-left: 2px solid limegreen;
 }
 
 .messages {
+}
+
+.oneMessage {
+    margin: 15px;
     padding: 10px;
+    border: 1px solid limegreen;
+    background-color: lightgreen;
+    border-radius: 0 10px 10px 10px;
 }

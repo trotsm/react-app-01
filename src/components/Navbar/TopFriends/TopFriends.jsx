@@ -4,7 +4,7 @@ import OneTopFriend from "./OneTopFriend/OneTopFriend";
 
 const TopFriends = (props) => {
     let friendItem = props.state
-        .map(p => <OneTopFriend name={p.name} image={p.image}/>);
+        .map(p => <OneTopFriend name={p.friendName} friendImage={p.friendImage}/>);
 
     return (
             <div className={s.friends}>

@@ -6,7 +6,7 @@ import AddPost from "./AddPost/AddPost";
 const MyPosts = (props) => {
 
     let postItems = props.postsData
-        .map(p => <Post message={p.message} likesCount={p.likesCount}/>);
+        .map(p => <Post message={p.postMessage} likesCount={p.likesCount}/>);
 
     return (
         <div className={s.postsSectoin}>

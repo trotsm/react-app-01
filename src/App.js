@@ -9,13 +9,12 @@ import News from "./components/pages/News/News";
 import Settings from "./components/pages/Settings/Settings";
 
 const App = (props) => {
-
     return (
         <BrowserRouter>
             <div className='app-wrapper'>
                 <Header/>
                 <div className='content-container'>
-                    <Navbar/>
+                    <Navbar state={props.state.topFriends}/>
                     <div className='main-content'>
                         <Route path='/profile' render={() => <Profile state={props.state.profilePage}/>}/>
                         <Route path='/dialogs' render={() => <Dialogs state={props.state.dialogPage}/>}/>

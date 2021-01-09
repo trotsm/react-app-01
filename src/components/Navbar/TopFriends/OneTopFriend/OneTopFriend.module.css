@@ -1,7 +1,7 @@
 .leftMenu {
     background-color: limegreen;
     height: 100%;
-    width: 300px;
+    width: 250px;
 }
 
 .leftMenu ul {
@@ -23,4 +23,22 @@ ul li a {
 
 .active {
     color: gold;
+}
+
+.friends {
+    color: lightgoldenrodyellow;
+}
+
+.titleTopFriends {
+    text-align: center;
+}
+
+img.friendImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.navbarFriendName {
+    margin: 0;
 }

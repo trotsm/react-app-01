@@ -1,0 +1,25 @@
+.topFriendContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.titleTopFriends {
+    text-align: center;
+}
+
+.friends {
+    margin-left: 16px;
+    color: lightgoldenrodyellow;
+}
+
+
+img.friendImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.navbarFriendName {
+    margin: 0;
+}

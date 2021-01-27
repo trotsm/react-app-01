@@ -43,3 +43,20 @@ img.dialogImg {
     background-color: lightgreen;
     border-radius: 0 10px 10px 10px;
 }
+
+.addMessage {
+    display: flex;
+}
+
+.addMessage textarea{
+    min-width: 250px;
+    border-radius: 2px;
+    background: #f5f5e2;
+}
+
+.addMessage button {
+    margin-left: 5px;
+    background-color: limegreen;
+    color: #f5f5e2;
+    border: none;
+}

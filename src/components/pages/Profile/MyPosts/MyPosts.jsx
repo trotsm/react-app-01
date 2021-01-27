@@ -11,7 +11,8 @@ const MyPosts = (props) => {
     return (
         <div className={s.postsSectoin}>
             <h2>My posts</h2>
-            <AddPost/>
+            <AddPost dispatch={props.dispatch}
+                     newPostText={props.newPostText}/>
             {postItems}
         </div>
     );
